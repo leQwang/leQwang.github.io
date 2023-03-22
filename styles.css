@@ -1,0 +1,47 @@
+body{
+    background-color: #CFF5E7;
+    text-align: center; 
+}
+.business-card{
+    display:inline-block;
+    border: 4px #0D4C92 solid;
+    margin: auto;
+    background-color: #A0E4CB;
+    padding-top: 10px;
+    width: 23em;
+    border-radius: 15px;
+    padding: 10px;
+   
+}
+img{
+    height: 20em; 
+    margin: 0 auto;
+    border: 5px #59C1BD solid;
+    border-radius: 50%;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    margin: auto;
+}
+#introduction{
+    margin: 8px auto 0px auto;
+}
+#more-info{
+    margin: 3px;
+}
+#div-link{
+    margin: 10px auto;
+}
+.font-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+}
+.link-me{
+    padding: 5px 40px;
+    border: 2px #0D4C92 solid;
+    border-radius: 5px;
+    background-color: #0D4C92; 
+    color: white;
+    text-decoration: none; 
+}
