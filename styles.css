@@ -29,6 +29,7 @@ h1{
 }
 #more-info{
     margin: 3px;
+    text-decoration: underline solid black;
 }
 #div-link{
     margin: 10px auto;
@@ -44,4 +45,33 @@ h1{
     background-color: #0D4C92; 
     color: white;
     text-decoration: none; 
+}
+#morph-box{
+    position: fixed;
+    z-index: -1;
+    width: 70%;
+    height: 450px;
+    margin: 50px 15% 50px 15%;
+    float: left;
+    border: 7px solid #ffffff50;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    animation: morph 12s ease-in-out infinite;
+}
+@keyframes morph{
+    0%{
+        border-radius: 43% 57% 52% 48% / 44% 42% 58% 56% ;
+    }
+    25%{
+        border-radius: 75% 25% 59% 41% / 63% 27% 73% 37% ;
+    }
+    50%{
+        border-radius: 61% 39% 59% 41% / 46% 48% 52% 54%  ;
+    }
+    75%{
+        border-radius: 41% 59% 29% 71% / 40% 62% 38% 60% ;
+    }
+    100%{
+        border-radius: 43% 57% 52% 48% / 44% 42% 58% 56% ;
+    }
 }
