@@ -13,7 +13,7 @@ body{
     padding: 10px;
    
 }
-img{
+.img-me{
     height: 20em; 
     margin: 0 auto;
     border: 5px #59C1BD solid;
@@ -76,9 +76,9 @@ h1{
     }
 }
 #walk-cycle{
-    margin: 0 auto;
     width: 125px;
     height: 318px;
+    float: left;
     background-image: url("walkCycle3.png");
     background-repeat: no-repeat;
     background-size: 1170px;
@@ -89,5 +89,46 @@ h1{
         background-position: 0px;
     }to{
         background-position: -1170px;
+    }
+}
+#contact{
+    border: 3px #0e7d54 solid;
+    background-color: #74c2bf;
+    border-radius: 9px;
+    margin: 50px 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    width: 220px;
+}   
+.RMIT-logo{
+    width: 150px;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier {
+    0%{
+        background-color: red;
+    }
+    14%{
+        background-color: orange;
+    }
+    28%{
+        background-color: yellow;
+    }
+    42%{
+        background-color: greenyellow;
+    }
+    56%{
+        background-color: cyan;
+    }
+    70%{
+        background-color: blue;
+    }
+    84%{
+        background-color: purple;
+    }
+    100%{
+        background-color: violet;
     }
 }
